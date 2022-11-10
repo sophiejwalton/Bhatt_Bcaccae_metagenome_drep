@@ -8,7 +8,7 @@ rule drep:
         # From https://bioinformatics.stackexchange.com/questions/7184/mix-globbing-and-wildcards-when-specifying-rule-input
         glob(join(config["bindir"],"*.fa"))
     output:
-        "workflow/out/dRep_output/data_tables/genomeInfo.csv"
+        "workflow/out/dRep_output/data_tables/Bdb.csv"
     params:
         outdir = "workflow/out/dRep_output/"
     threads:

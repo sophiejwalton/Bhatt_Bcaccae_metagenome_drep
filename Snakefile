@@ -6,7 +6,7 @@ configfile: "config/config.yaml"
 
 rule all:
     input:
-        "workflow/out/dRep_output/data_tables/genomeInfo.csv",
+        "workflow/out/dRep_output/data_tables/Bdb.csv",
         
 # Check the dag
 #  snakemake --forceall --dag | dot -Tpng >dag.png
