@@ -1,0 +1,8 @@
+# Input directories and files.
+
+
+bindir: "/oak/stanford/groups/dpetrov/swalton/data/bhatt-metagenomes/bcaccae-isolates/asm/"
+
+# Analysis parameters.
+maxCPUs: 20
+threads: 20

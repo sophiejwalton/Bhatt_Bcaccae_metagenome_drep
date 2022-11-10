@@ -1,0 +1,24 @@
+# Input directories and files.
+
+# Uncomment these when you are ready to run everything
+#fastqdir: "/Volumes/hdd0620/rumen_microbiome_data/mizrahi_lab_files/fastq"
+#bindir: "/Volumes/hdd0620/rumen_microbiome_data/mizrahi_lab_files/bins"
+
+fastqdir: "/scratch/users/swalton/subsampled_data_2/fastq"
+# bindir: "/Users/lnmerk/subsampled_data_2/bins"
+
+# Which dRep to run
+# dRepdir: "/Users/lnmerk/Library/Python/3.6/bin/dRep"
+
+# MIDAS database:
+midasDBdir: "/home/groups/bhgood/midas_db_v1.2/rep_genomes/"
+midasDB: "/home/groups/bhgood/midas_db_v1.2/"
+midas_dir : "/home/groups/bhgood/MIDAS/scripts/"
+
+# Output directories
+plotMIDASoutdir: "workflow/report/plotMIDAS/"
+
+# Analysis parameters.
+maxCPUs: 7
+# MIDAS snps module.
+runMIDAS_speciesMinCoverage: 3
